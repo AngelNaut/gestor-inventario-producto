@@ -1,6 +1,11 @@
-﻿namespace CrudProductos.Controllers
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CrudProductos.Controllers
 {
-    public class ProductoController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductoController : ControllerBase
     {
     }
 }
