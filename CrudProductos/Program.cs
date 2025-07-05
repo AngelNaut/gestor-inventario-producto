@@ -1,4 +1,9 @@
 
+using Application.Repositories;
+using Application.Services;
+using Database.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace CrudProductos
 {
     public class Program
@@ -10,9 +15,14 @@ namespace CrudProductos
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<CrudProductosContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<ProductoRepository>();
+            builder.Services.AddScoped<ProductoService>();
 
             var app = builder.Build();
 
