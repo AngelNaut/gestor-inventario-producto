@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Mis_Cosas\\CrudProductos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|c:\\mis_cosas\\crudproductos\\crudproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|solutionrelative:crudproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|c:\\mis_cosas\\crudproductos\\crudproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|solutionrelative:crudproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24D0A64A-BB5F-486C-928A-C3B69F7BCDAE}|Database\\Database.csproj|c:\\mis_cosas\\crudproductos\\database\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D0A64A-BB5F-486C-928A-C3B69F7BCDAE}|Database\\Database.csproj|solutionrelative:database\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|c:\\mis_cosas\\crudproductos\\crudproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC152C7-0740-4141-9CDD-8E1759357D4F}|CrudProductos\\CrudProductos.csproj|solutionrelative:crudproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mis_Cosas\\CrudProductos\\Database\\Migrations\\20250705025918_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 261,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,20 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Mis_Cosas\\CrudProductos\\CrudProductos\\appsettings.json",
               "RelativeDocumentMoniker": "CrudProductos\\appsettings.json",
               "ToolTip": "C:\\Mis_Cosas\\CrudProductos\\CrudProductos\\appsettings.json",
               "RelativeToolTip": "CrudProductos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-04T18:21:34.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Mis_Cosas\\CrudProductos\\CrudProductos\\Program.cs",
               "RelativeDocumentMoniker": "CrudProductos\\Program.cs",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Mis_Cosas\\CrudProductos\\Database\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Database\\Entities\\Producto.cs",
