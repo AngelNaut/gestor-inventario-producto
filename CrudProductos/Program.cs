@@ -1,4 +1,3 @@
-
 using Application.Repositories;
 using Application.Services;
 using Database.Context;
@@ -24,6 +23,19 @@ namespace CrudProductos
             builder.Services.AddScoped<ProductoRepository>();
             builder.Services.AddScoped<ProductoService>();
 
+            // Configurar CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader();
+                    });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -35,8 +47,9 @@ namespace CrudProductos
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseCors("AllowAll"); // Activar política de CORS
 
+            app.UseAuthorization();
 
             app.MapControllers();
 
